@@ -4,7 +4,8 @@
     --corFundo: #0b0013;
 }
 
-html, body{
+html,
+body {
     height: 100vh;
     width: 98vw;
 }
@@ -42,7 +43,7 @@ header span {
 
 }
 
-aside{
+aside {
     border: solid 0.1px var(--corBordaLilas);
     height: calc(100vh - 70px);
     width: 18%;
@@ -53,20 +54,53 @@ aside{
     gap: 30px;
 }
 
-aside div{
+aside div {
     height: 50px;
     width: 80%;
-   padding-left: 15px;
+    padding-left: 15px;
     display: flex;
     align-items: center;
     gap: 3px;
 }
 
-.icon{
+.icon {
     background: transparent;
     height: 19px;
 }
 
-.atual{
-background: linear-gradient(to right, rgba(127, 75, 255, 0.25) 55%, transparent);
+.atual {
+    background: linear-gradient(to right, rgba(127, 75, 255, 0.25) 55%, transparent);
+}
+
+.container {
+    display: flex;
+}
+
+.eu img {
+    height: 200px;
+}
+
+.eu div h4 {
+    display: flex;
+    align-items: center;
+}
+
+.eu {
+    padding: 30px;
+    gap: 30px;
+    word-spacing: 3px;
+    line-height: 29px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.eu div h5 {
+    color: #afafaf;
+}
+
+.eu div h1 {
+    font-weight: bolder;
 }
