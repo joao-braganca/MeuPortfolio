@@ -1,0 +1,72 @@
+:root {
+    --roxo: #7f4bff;
+    --corBordaLilas: #2b1f7b;
+    --corFundo: #0b0013;
+}
+
+html, body{
+    height: 100vh;
+    width: 98vw;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--corFundo);
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px 20px 35px;
+    border-bottom: solid 0.1px var(--corBordaLilas);
+    height: 70px;
+}
+
+header label {
+    word-spacing: 10px;
+    color: var(--roxo);
+}
+
+header span {
+    word-spacing: 3px;
+    color: var(--roxo);
+
+}
+
+aside{
+    border: solid 0.1px var(--corBordaLilas);
+    height: calc(100vh - 70px);
+    width: 18%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    gap: 30px;
+}
+
+aside div{
+    height: 50px;
+    width: 80%;
+   padding-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.icon{
+    background: transparent;
+    height: 19px;
+}
+
+.atual{
+background: linear-gradient(to right, rgba(127, 75, 255, 0.25) 55%, transparent);
+}
