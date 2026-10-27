@@ -78,7 +78,7 @@ aside div::before {
 }
 
 aside div:hover::before {
-    background: linear-gradient(to right, rgba(127, 75, 255, 0.25) 55%, transparent);
+    background: linear-gradient(to right, rgba(127, 75, 255, 0.20) 55%, transparent);
 
     width: 100%;
 
@@ -90,7 +90,7 @@ aside div:hover::before {
 }
 
 .atual {
-    background: linear-gradient(to right, rgba(127, 75, 255, 0.25) 55%, transparent);
+    background: linear-gradient(to right, rgba(127, 75, 255, 0.30) 55%, transparent);
 }
 
 .container {
@@ -112,13 +112,36 @@ aside div:hover::before {
     word-spacing: 3px;
     line-height: 29px;
     border-bottom: solid 0.1px var(--corBordaLilas);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 nav {
     display: flex;
-    gap: 30px;
+    gap: 40px;
+    line-height: 15px;
 }
+
+nav a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+nav p{
+    font-size: 10px;
+    color: #afafaf;
+}
+
+nav svg{
+    height: 30px;
+    width: 30px;
+}
+
+
 
 .eu div h5 {
     color: #afafaf;
@@ -126,4 +149,44 @@ nav {
 
 .eu div h1 {
     font-weight: bolder;
+}
+
+.eu div h1 span{
+    color: var(--roxo);
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headerProjetos{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.headerProjetos a {
+    color: var(--roxo)
+}
+
+.headerProjetosTexto{
+    display: flex;
+    gap: 10px;
+        align-items: center;
+
+}
+
+
+
+.iconProjetos{
+    height: 30px;
+    width: 30px;
+  
+}
+svg.iconProjetos {
+    stroke: var(--roxo);
 }
