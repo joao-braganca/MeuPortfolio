@@ -153,6 +153,7 @@ nav svg{
 
 .eu div h1 span{
     color: var(--roxo);
+    font-weight: bolder;
 }
 
 .projetos{
